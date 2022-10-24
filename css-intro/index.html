@@ -14,29 +14,52 @@
     body{
         background-color: aqua;
     }
+    #contact {
+        background-color: gold;
+    }
+
     p{color-scheme: blue    ;}
+
+    .my-ps {
+        background-color: aquamarine;
+    }
+    .my-width {
+        width: 100px;   
+    }
     li{
         color: hotpink
     }
     footer{
         background-color: tan;
     }
+    
+        footer > ul > li {
+            color: blueviolet;
+        }
+
+        footer {
+            background-color: red;
+        }
+    
 
 
 </style>
 <body>
    <header>
     <nav>
-        <ul>
+        <ul class="my-ps my-width">
             <li style="color: rgb(255, 111, 0);
             font-size: large;
             background: khaki;">About</li>
             <li>Services</li>
-            <li>Contact</li>
+            <li id="contct">Contact</li>
         </ul>
     </nav>
    </header> 
-   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam incidunt iure assumenda debitis consectetur ducimus similique consequuntur accusamus sequi repellendus quam laudantium nesciunt, soluta qui at deserunt error, dolorum reiciendis.    </p>
+   <p class="my-ps my-width">
+    Lorem ipsum dolor sit amet  consectetur, adipisicing elit. Numquam incidunt iure assumenda debitis consectetur ducimus similique consequuntur accusamus sequi repellendus quam laudantium nesciunt, soluta qui at deserunt error, dolorum reiciendis.    </p>
+   <h3>Another one </h3>
+   <h3>hey hey</h3>
    <footer><ul>
     <li>About
     
