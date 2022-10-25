@@ -4,6 +4,7 @@
     border-width: 3mm;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
 
 }
@@ -17,11 +18,12 @@
     display: flex;
     justify-content: center;
     align-items:center;
+    margin: 0 0 20px 0 ;
 }
 
 #content-container{
     border-style: solid;
-    border-color: rgb(0, 255, 26);
+    border-color: rgb(12, 54, 16);
     border-width: 3mm;
     display: flex;
     flex-wrap: wrap;
@@ -30,20 +32,28 @@
 }
 
 .card-container{
-    border-style: solid;
-    border-color: purple;
-    border-width: 3mm;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 45%;
-    margin: 1%;
+    width: 46%;
+    margin: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+
 
 }
 
 img{
-    width: 100%;
+    width: 90%;
+    
+}
+@media only screen and (max-width:821px){
+.card-container {
+    width: 70%;
 }
 
+}
